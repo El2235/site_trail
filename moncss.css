@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    width: 100%;
+    text-align: center;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  .material-icons.md-48 {
+       font-size: 120px;
+    
+     }
+
+hr{
+    background: green;
+    text-align: center;
+    height: 100px;
+    width:40%;
+}
+.block-light {
+    position: relative;
+    width: 100%;
+    color: black;
+    padding: 10vw;
+   
+   }
+.parcours{
+    background-color: black;
+}   
+.background_forest{
+    position: absolute;
+    top: 0;
+    bottom : 0;
+    left: 0;
+    right: 0;
+    background-image : url("trail.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+    
+}
+
+.titre{
+text-align: center;
+opacity: 1;
+z-index: 2;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+  }
+  .btn-prim {
+    color: #fff;
+    background-color:green;
+    border-color: green;
+  }
